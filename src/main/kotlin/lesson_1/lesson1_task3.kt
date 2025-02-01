@@ -1,5 +1,17 @@
 package org.stekl0.lesson_1
 
 fun main(){
-    println("Тестовое решение к уроку 1 задачи 3")
+    val year = 1961
+
+    var hour = "09"
+    var minute = "07"
+
+    println(year)
+    println(hour)
+    println(minute)
+
+    hour = "10"
+    minute = "55"
+
+    println("$hour:$minute")
 }
