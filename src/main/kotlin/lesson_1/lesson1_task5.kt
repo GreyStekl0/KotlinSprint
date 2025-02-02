@@ -9,7 +9,7 @@ fun main() {
     val hours = minutes / conversion
     minutes = minutes % conversion
 
-    val result = String.format("%02d:%02d:%02d", hours, minutes, seconds)
+    val result = "%02d:%02d:%02d".format(hours, minutes, seconds)
 
     println(result)
 }
