@@ -3,10 +3,11 @@ package org.stekl0.lesson_2
 fun main() {
     val crystalOre = 7
     val ironOre = 11
-    val buff = 1.2
+    val buff = 0.2
 
-    val fullCrystal = crystalOre * buff
-    val fullIron = ironOre * buff
+    val allPrey = 1 + buff
+    val fullCrystal = crystalOre * allPrey
+    val fullIron = ironOre * allPrey
 
     val buffCrystal = (fullCrystal - crystalOre).toInt()
     val buffIron = (fullIron - ironOre).toInt()
