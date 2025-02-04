@@ -1,14 +1,17 @@
 package org.stekl0.lesson_2
 
+import kotlin.math.pow
+
 fun main() {
-    var sum = 70000.0
-    val rate = 1.167
+    val sum = 70000.0
+    val rate = 16.7
     val years = 20
 
-    repeat(years) {
-        sum = sum * rate
-    }
+    val interestRate = 1 + rate/100
+    val fullSum = sum * interestRate.pow(years)
 
-    val result = "%.3f".format(sum)
+
+
+    val result = "%.3f".format(fullSum)
     println(result)
 }
