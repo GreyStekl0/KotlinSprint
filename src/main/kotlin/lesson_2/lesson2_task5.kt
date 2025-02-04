@@ -7,9 +7,8 @@ fun main() {
     val rate = 16.7
     val years = 20
 
-    val interestRate = 1 + rate/100
+    val interestRate = 1 + rate / 100
     val fullSum = sum * interestRate.pow(years)
-
 
 
     val result = "%.3f".format(fullSum)
