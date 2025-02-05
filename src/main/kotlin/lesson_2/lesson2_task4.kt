@@ -4,8 +4,10 @@ fun main() {
     val crystalOre = 7
     val ironOre = 11
     val buff = 20
+    val percent = 100f
+    val oneHundredPercent = 1
 
-    val allPrey = 1 + buff/100f
+    val allPrey = oneHundredPercent + buff / percent
     val fullCrystal = crystalOre * allPrey
     val fullIron = ironOre * allPrey
 
