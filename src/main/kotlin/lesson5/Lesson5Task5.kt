@@ -7,7 +7,7 @@ fun main() {
     val maxNumber = 42
     val minNumber = 0
 
-    val winningNumbers = List(numberCount) { Random.nextInt(minNumber, maxNumber) }
+    val winningNumbers = List(numberCount) { Random.nextInt(minNumber, maxNumber + 1) }
 
     println("Введите три числа (от 0 до 42):")
     val userNumbers =
