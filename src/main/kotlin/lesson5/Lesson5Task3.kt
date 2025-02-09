@@ -3,8 +3,11 @@ package org.stekl0.lesson5
 import kotlin.random.Random
 
 fun main() {
-    val winningNumber1 = Random.nextInt(0, 42)
-    val winningNumber2 = Random.nextInt(0, 42)
+    val minNumber = 0
+    val maxNumber = 42
+
+    val winningNumber1 = Random.nextInt(minNumber, maxNumber)
+    val winningNumber2 = Random.nextInt(minNumber, maxNumber)
 
     println("Введите первое число (от 0 до 42):")
     val userNumber1 = readln().toInt()
