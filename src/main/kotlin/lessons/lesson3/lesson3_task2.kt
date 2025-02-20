@@ -1,8 +1,11 @@
-package org.stekl0.lesson_3
+package org.stekl0.lessons.lesson_3
 
-fun getInfo(surname: String, name: String, patronymic: String, age: Int): String {
-    return "ФИО: $surname $name $patronymic, возраст: $age"
-}
+fun getInfo(
+    surname: String,
+    name: String,
+    patronymic: String,
+    age: Int,
+): String = "ФИО: $surname $name $patronymic, возраст: $age"
 
 fun main() {
     var surname = "Андреева"

@@ -1,4 +1,4 @@
-package org.stekl0.lesson_4
+package org.stekl0.lessons.lesson_4
 
 const val IS_SUNNY = true
 const val IS_TENT_OPEN = true
@@ -11,12 +11,11 @@ fun main() {
     val humidityToday = 20
     val currentSeason = "зима"
 
-
     val favorableConditions =
         isWeatherToday == IS_SUNNY &&
-                isTent == IS_TENT_OPEN &&
-                humidityToday == HUMIDITY &&
-                currentSeason != UNFAVORABLE_SEASON
+            isTent == IS_TENT_OPEN &&
+            humidityToday == HUMIDITY &&
+            currentSeason != UNFAVORABLE_SEASON
 
     println("Благоприятные ли условия сейчас для роста бобовых? $favorableConditions")
 }

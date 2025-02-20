@@ -1,11 +1,10 @@
-package org.stekl0.lesson_4
+package org.stekl0.lessons.lesson_4
 
 const val MIN_WEIGHT = 35
 const val MAX_WEIGHT = 100
 const val MAX_VOLUME = 100
 
 fun main() {
-
     val weight1 = 20
     val volume1 = 80
     val weight2 = 50
@@ -16,14 +15,14 @@ fun main() {
 
     println(
         "Груз с весом $weight1 кг " +
-                "и объемом $volume1 л " +
-                "соответствует категории 'Average': " +
-                "$result1"
+            "и объемом $volume1 л " +
+            "соответствует категории 'Average': " +
+            "$result1",
     )
     println(
         "Груз с весом $weight2 кг " +
-                "и объемом $volume2 л " +
-                "соответствует категории 'Average': " +
-                "$result2"
+            "и объемом $volume2 л " +
+            "соответствует категории 'Average': " +
+            "$result2",
     )
 }

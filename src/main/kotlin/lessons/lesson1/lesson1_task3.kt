@@ -1,6 +1,6 @@
-package org.stekl0.lesson_1
+package org.stekl0.lessons.lesson_1
 
-fun main(){
+fun main() {
     val year = 1961
 
     var hour = "09"

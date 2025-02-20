@@ -1,4 +1,4 @@
-package org.stekl0.lesson_2
+package org.stekl0.lessons.lesson_2
 
 fun main() {
     val schoolboy1 = 3

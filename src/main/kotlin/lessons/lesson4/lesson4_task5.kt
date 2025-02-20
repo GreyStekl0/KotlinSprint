@@ -1,4 +1,4 @@
-package org.stekl0.lesson_4
+package org.stekl0.lessons.lesson_4
 
 const val MAX_STAFF = 70
 const val MIN_STAFF = 55
@@ -18,7 +18,8 @@ fun main() {
     println("Введите благоприятность метеоусловий (true/false):")
     val isWeatherFavorable = readln().toBoolean()
 
-    val canSetSail = (!hasDamage && crewCount in MIN_STAFF..MAX_STAFF && provisionBoxes > MIN_BOXES) ||
+    val canSetSail =
+        (!hasDamage && crewCount in MIN_STAFF..MAX_STAFF && provisionBoxes > MIN_BOXES) ||
             (hasDamage && crewCount == MAX_STAFF && isWeatherFavorable && provisionBoxes >= MIN_BOXES)
 
     println("Может ли корабль отправиться в плавание? $canSetSail")

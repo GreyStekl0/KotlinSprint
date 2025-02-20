@@ -1,6 +1,6 @@
-package org.stekl0.lesson_1
+package org.stekl0.lessons.lesson_1
 
-fun main(){
+fun main() {
     val countOrders: Int = 75
     val gratitudeForOrder: String = "Спасибо за то, что сделали у нас заказ!"
 
@@ -10,6 +10,6 @@ fun main(){
     var countWorkers: Int = 2000
 //    println(countWorkers)
 
-    countWorkers-=1
+    countWorkers -= 1
     println(countWorkers)
 }

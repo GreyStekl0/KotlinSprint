@@ -1,4 +1,4 @@
-package org.stekl0.lesson5
+package lessons.lesson5
 
 fun main() {
     val hundredKm = 100

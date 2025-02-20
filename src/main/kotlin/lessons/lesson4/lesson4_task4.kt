@@ -1,4 +1,4 @@
-package org.stekl0.lesson_4
+package org.stekl0.lessons.lesson_4
 
 fun main() {
     val day = 5

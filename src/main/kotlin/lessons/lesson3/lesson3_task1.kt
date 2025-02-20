@@ -1,4 +1,4 @@
-package org.stekl0.lesson_3
+package org.stekl0.lessons.lesson_3
 
 fun main() {
     val name = "Stekl0"
